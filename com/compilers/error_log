@@ -1,0 +1,6 @@
+[13-Jun-2020 02:50:39 UTC] PHP Warning:  include(../recursive_directory_delete.php): failed to open stream: No such file or directory in /home/ncetmonsterminds/public_html/compilers/make.php on line 75
+[13-Jun-2020 02:50:39 UTC] PHP Warning:  include(): Failed opening '../recursive_directory_delete.php' for inclusion (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/ncetmonsterminds/public_html/compilers/make.php on line 75
+[13-Jun-2020 02:50:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function recursive_remove_directory() in /home/ncetmonsterminds/public_html/compilers/make.php:76
+Stack trace:
+#0 {main}
+  thrown in /home/ncetmonsterminds/public_html/compilers/make.php on line 76

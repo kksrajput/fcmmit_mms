@@ -1,0 +1,96 @@
+[13-Jun-2020 02:03:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:03:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:03:35 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:03:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:03:43 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:03:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:04:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:04:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:05:28 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:05:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:06:07 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:06:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:06:17 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:06:17 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:06:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:06:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:07:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:07:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:07:31 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:07:31 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:18:42 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:18:42 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:21:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:21:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:22:04 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/config.php on line 10
+[13-Jun-2020 02:22:04 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/config.php on line 14
+[13-Jun-2020 02:28:29 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/process.php on line 27
+[13-Jun-2020 02:28:29 UTC] PHP Warning:  Use of undefined constant pass - assumed 'pass' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/process.php on line 27
+[13-Jun-2020 02:28:29 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/process.php on line 33
+[13-Jun-2020 02:28:29 UTC] PHP Warning:  Use of undefined constant pass - assumed 'pass' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/process.php on line 34
+[13-Jun-2020 02:34:44 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/ncetmonsterminds/public_html/java.php on line 3
+[13-Jun-2020 02:34:44 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/ncetmonsterminds/public_html/java.php:1) in /home/ncetmonsterminds/public_html/java.php on line 11
+[13-Jun-2020 03:13:32 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 27
+[13-Jun-2020 03:13:32 UTC] PHP Warning:  Use of undefined constant pass - assumed 'pass' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 27
+[13-Jun-2020 03:13:32 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 33
+[13-Jun-2020 03:13:32 UTC] PHP Warning:  Use of undefined constant pass - assumed 'pass' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 34
+[14-Jun-2020 12:38:29 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 27
+[14-Jun-2020 12:38:29 UTC] PHP Warning:  Use of undefined constant pass - assumed 'pass' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 27
+[14-Jun-2020 12:38:29 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 33
+[14-Jun-2020 12:38:29 UTC] PHP Warning:  Use of undefined constant pass - assumed 'pass' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 34
+[14-Jun-2020 13:12:36 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 27
+[14-Jun-2020 13:12:36 UTC] PHP Warning:  Use of undefined constant pass - assumed 'pass' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 27
+[14-Jun-2020 13:12:36 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 33
+[14-Jun-2020 13:12:36 UTC] PHP Warning:  Use of undefined constant pass - assumed 'pass' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/process.php on line 34

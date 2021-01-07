@@ -1,0 +1,932 @@
+<!doctype html><html lang="en"><head>
+  <!--====== Required meta tags ======-->
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="description" content="A beginners Intro to Git and GitHub tutorial">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <meta name="keywords" content="Ncet monster minds, ncet coding club ,ncet coding club blogs, blog , blogs , ncet coding club blogs, submit blog , post blog, post article , hacking, ncet, ncetmonsterminds.com,git, github , intro to github, beginners github, upload files on github,A beginners Intro to Git and GitHub">
+  <meta name="generator" content="ncetmonsterminds">
+  <!--====== Title ======-->
+  <title>NCET MONSTER MINDS BLOGS | A beginners Intro to Git and GitHub</title>
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-73144081-5"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-73144081-5');
+  </script>
+  
+  <script data-ad-client="ca-pub-6244981918944412" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+  <!--====== Favicon Icon ======-->
+  <link rel="shortcut icon" href="images/favicon.png" type="image/png">
+  <!--====== Slick css ======-->
+  <link rel="stylesheet" href="css/slick.css">
+  <!--====== Animate css ======-->
+  <link rel="stylesheet" href="css/animate.css">
+  <!--====== Nice Select css ======-->
+  <link rel="stylesheet" href="css/nice-select.css">
+  <!--====== Nice Number css ======-->
+  <link rel="stylesheet" href="css/jquery.nice-number.min.css">
+  <!--====== Magnific Popup css ======-->
+  <link rel="stylesheet" href="css/magnific-popup.css">
+  <!--====== Bootstrap css ======-->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!--====== Fontawesome css ======-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!--====== Default css ======-->
+  <link rel="stylesheet" href="css/default.css">
+  <!--====== Style css ======-->
+  <link rel="stylesheet" href="css/style.css">
+  <!--====== Responsive css ======-->
+  <link rel="stylesheet" href="css/responsive.css">
+  <script type='text/javascript' src='https://platform-api.sharethis.com/js/sharethis.js#property=5edd0c9a63a3cd0012159572&cms=sop' async='async'></script>
+</head>
+<body>
+
+   <!--====== PRELOADER PART START ======-->
+    
+    <div class="preloader">
+        <div class="loader rubix-cube">
+            <div class="layer layer-1"></div>
+            <div class="layer layer-2"></div>
+            <div class="layer layer-3 color-1"></div>
+            <div class="layer layer-4"></div>
+            <div class="layer layer-5"></div>
+            <div class="layer layer-6"></div>
+            <div class="layer layer-7"></div>
+            <div class="layer layer-8"></div>
+        </div>
+    </div>
+<!--====== PRELOADER PART START ======-->
+
+  <!--====== HEADER PART START ======-->
+  <header id="header-part">
+    <div class="navigation navigation-2 navigation-3">
+      <div class="container">
+        <div class="row no-gutters">
+          <div class="col-lg-11 col-md-10 col-sm-9 col-9">
+            <nav class="navbar navbar-expand-lg">
+              <a class="navbar-brand" href="index.html">
+                <img src="logo.png" alt="Logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a  href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a  href="about.html ">About us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="courses.html">Courses</a>
+                    <!--<a href="courses-singel.html">Course Singel</a>-->
+                  </li>
+                  <li class="nav-item">
+                    <a href="events.html">Events</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="news.html">News/Updates</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="compiler/compiler.php">Compiler</a>
+                    </li>
+                  <li class="nav-item">
+                    <a class="active" href="blog.html" style="text-shadow: 5px 10px 5px #000;">Blog</a>
+                    <ul class="sub-menu">
+                      <li>
+                        <a href="Write-blog.html">Write Blog</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a href="contact.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <!-- nav -->
+          </div>
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+  </header>
+  <!--====== HEADER PART ENDS ======-->
+  <!--====== SEARCH BOX PART START ======-->
+  <div class="search-box">
+    <div class="serach-form">
+      <div class="closebtn">
+        <span></span>
+        <span></span>
+      </div>
+      <form action="#">
+        <input type="text" placeholder="Search by keyword">
+        <button>
+          <i class="fa fa-search"></i>
+        </button>
+      </form>
+    </div>
+    <!-- serach form -->
+  </div>
+  <!--====== SEARCH BOX PART ENDS ======-->
+  <!--====== PAGE BANNER PART START ======-->
+  <section id="page-banner" class="pt-105 pb-130 bg_cover" data-overlay="8" style="background-image: url(images/blog/BlogBanner.jpg)">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="page-banner-cont">
+            <h2>A beginners Intro to Git and GitHub </h2>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                  <a href="index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                  <a href="blog.html">Blog</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">A beginners Intro to Git and GitHub </li>
+              </ol>
+            </nav>
+          </div>
+          <!-- page banner cont -->
+        </div>
+      </div>
+      <!-- row -->
+    </div>
+    <!-- container -->
+  </section>
+  <!--====== PAGE BANNER PART ENDS ======-->
+  <!--====== BLOG PART START ======-->
+  <section id="blog-singel" class="pt-90 pb-120 gray-bg">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <!-- writing Division-->
+          <div class="blog-details mt-30">
+            <div class="thum">
+              <img src="images/blog/1/bg.jpg" alt="Blog Details">
+            </div>
+            <div class="cont">
+              <h3>A beginners Intro to Git and GitHub </h3>
+              <p>
+                Complete Guide on how to install Git and upload Projects to your GitHub Account
+              </p>
+              <ul>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-calendar"></i>06 Jun 2020
+
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-user"></i>Abhishek Kumar, 1NC17CS001 CSE,NCET
+
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <i class="fa fa-tags"></i>Coding
+
+                  </a>
+                </li>
+              </ul>
+              <p>
+               why Github? Well, It is primarily used for source code management in project development, but it can be used to keep track of changes in any set of files it is open source and free to use. 
+
+
+               <br>
+               You can upload your project source code on github and access it remotely from any where. It's up to you that either you want keep your files 
+
+               <strong> Private </strong> or you can keep it as 
+
+               <strong>Public</strong> so anyone can get your souce files and get help 
+
+
+               <br>
+               <br>
+               Git is a Distributed Version Control tool that is used to store different versions of a file in a remote or local repository. It is used to track changes in the source code. It allows multiple developers to work together.
+
+
+
+             </p><hr>
+
+             <p class="mt-20">
+              <h1 style="font-size: 35px; font-weight: 400;">Getting Started</h1>
+              The first two things you have to do are 
+
+              <a href="https://git-scm.com/">
+                <u>
+                  <strong>install git</strong>
+                </u>
+              </a>  and 
+
+              <a href="">
+                <u>
+                  <strong>create a free GitHub account</strong>
+                </u>
+              </a>.
+
+
+              <br>
+              <br>
+              <dl>
+                <dt>
+                  <h4 style="margin-bottom: 5px;">Install Git</h4>
+                </dt>
+                <dd >
+                  <li> Visit the Git website and download the Setup, You can Get the Setup from 
+
+                    <a href="https://git-scm.com/download/win" target="_blank" >here</a>
+                  </li>
+                  <li> Run the downloaded file and Install the setup</li>
+                  <li> After instalation open your 
+
+                    <strong>Command prompt</strong> and exeuted the below command to check git is installed succfully or not 
+
+                  </li>
+                  <pre class="pre">
+                    <code class="code"> git --version</code>
+                  </pre>
+                </dd>
+                <br>
+                <dt>
+                  <h4 style="margin-bottom: 5px;">Creating account</h4>
+                </dt>
+                <dd>
+                  <li>Visit Github Website 
+
+                    <a href="https://github.com/">Here</a>, SignUp and Create a GitHub account
+
+                  </li>
+                </dd>
+              </dl>
+
+            </p>
+            <hr>
+          </div>
+          <!-- cont -->
+        </div>
+        <!-- writing Division-->
+        <!----------------------------------------------------- upper Writing division end ------------------------------------------------------>
+
+        
+
+        <!----------------------------------------------------- Second Writing division Start ------------------------------------------------------>
+        <div class="blog-details mt-30">
+          <div class="cont">
+            <h3>Uploading Project Folder to Your Github Account</h3>
+            <p>
+              Complete Guide on how to install Git and upload Projects to your Account
+            </p>
+            <p class="mt-20">
+              <dl>
+                <dt>
+                  <h4 style="margin-bottom: 5px;">Step 1: Create a new repository</h4>
+                </dt>
+                <hr>
+                <dd >
+                  <li> Visit the Git website and download the Setup, You can Get the Setup from 
+
+                    <a href="https://git-scm.com/download/win">here</a>
+                  </li>
+                  <li> Login to your account and create a new repository</li>
+                  <p>A repository is like a place or a container where something is stored; in this case we're creating a Git repository to store code. To create a new repository, select New Repository from the + sign dropdown menu.</p>
+                  <img  class="pt-40" src="images/blog/1/1.png">
+                </dd>
+                <br>
+                <br>
+                <dt>
+                  <h4 style="margin-bottom: 5px;">Step 2: Entre the name of repository</h4>
+                </dt>
+                <hr>
+                <dd>
+                  <li>Enter a name for your repository (e.g, "Demo") and 
+
+                    <strong>click Create Repository</strong>.
+
+                  </li>
+                  <p> Don't worry about any other options on this page. you can also chnage the name of your Repo later
+
+                    <br>
+
+                  </p>
+                  <img class="pt-40" src="images/blog/1/2.png">
+                  Congratulations! You have set up your first repo on GitHub.com.
+                </dd>
+                <br>
+                <br>
+                <dt>
+                  <h4 style="margin-bottom: 5px;">Step 3: Getting repository Link</h4>
+                </dt>
+                <hr>
+                <dd>
+                  <li>After Creating your repo you be automatically redirected to this page (image below)</li>
+                  <p>Here the red marked link is your repo link </p>
+                  <img src="images/blog/1/3.png">
+                </dd>
+                <br>
+                <br>
+                <dt>
+                  <h4 style="margin-bottom: 5px;">Step 4: Uploading Your Files</h4>
+                </dt>
+                <hr>
+                <dd>
+                  <li>Open the your project folder and in the directory address bar type 
+
+                    <strong>cmd</strong> and press Enter. A Command Prompt window will open
+
+                  </li>
+                  <br>
+                  <img style="margin-bottom: 20px;" src="images/blog/1/4.png">
+                  <li>A Command Prompt window will open Automatically</li>
+                  <br>
+                  <img style="margin-bottom: 20px;" src="images/blog/1/5.png">
+                  <li>Type the following commands one by one and press enter respectively</li>
+                  <pre class="pre">
+                    <code class="code">git init</code>
+                  </pre>
+                  <pre class="pre">
+                    <code class="code">git add .</code>
+                  </pre>
+                  <pre class="pre">
+                    <code class="code">git commit -m "Your any messange"</code>
+                  </pre>
+                  <pre class="pre"><code class="code">git remote add origin <b><u>https://github.com/`username`/`repo name`.git</u></b></code></pre>
+                  <p>Put your repo link the you hare created in Step:3 in place of above underlined link i.e "https://github.com/`username`/reponame.git" </p>
+                  <pre class="pre"><code class="code">git push -u origin master</code></pre>
+                  <p>Once you are done, your terminal will look like this:</p>
+                  <img style="margin-bottom: 20px;" src="images/blog/1/7.png">
+                  <p>And if you go to https://github.com/`your_username`/Demo you will see something like this:</p>
+                  <img style="margin-bottom: 20px;" src="images/blog/1/8.png">
+                  <br><br>
+
+                  <p class="mt-30"><strong>That's it! You have created your first GitHub repo, connected it to your computer, and pushed (or uploaded) a file from your computer to your repository called Demo on GitHub.com.<a href="#contact">contact</a></strong></p>
+                </dd>
+              </dl>
+            </p>
+            <!--<span class="cmd">ctrl + rs</span>-->
+            <div class="sharethis-inline-share-buttons"></div>
+
+          </div><!-- cont -->        
+        </div><!-- blog details -->
+        <!----------------------------------------------------- Second Writing division end ------------------------------------------------------>
+
+        <!----------------------------------------------------- third Writing division Start ------------------------------------------------------>
+        <div class="blog-details mt-30">
+          <div class="cont">
+            <h3>Making Changes in your Local file and updating those changes to your repository</h3>
+            <p class="mt-20">
+              Once you uploaded your files to your Repository and after some time you have made some changes to your code, Let say you hav added new features to your project and wanted to update your repository according to current changes
+              <br>
+              There very simple steps to follow
+            </p>
+            <p class="mt-20">
+              <dl>
+                <dt>
+                  <h4 style="margin-bottom: 5px;">Step 1: open The folder</h4>
+                </dt>
+                <hr>
+                <dd >
+                  once you have made your changes
+                  <li> Open folder and Type <strong>cmd</strong> in adress bar
+                  </li>
+                  <img class="mt-20 mb-20" src="images/blog/1/4.png">
+                  <li>command prompt window will open</li>
+                  <img  class="mt-30" src="images/blog/1/5.png">
+                </dd>
+                <br>
+                <br>
+
+                <dt>
+                  <h4 style="margin-bottom: 5px;">Step 2: Update changes to repository</h4>
+                </dt>
+                <hr>
+                <dd>
+                  <li>execute the commands
+                  </li>
+                  <pre class="pre">
+                    <code class="code">git add .</code>
+                  </pre>
+                  <pre class="pre">
+                    <code class="code">git commit -m "Your any messange"</code>
+                  </pre>
+                  <pre class="pre">
+                    <code class="code">git push -u origin master</code>
+                  </pre>
+                  <img src="images/blog/1/21.png">
+
+                  
+                  
+
+                  
+
+                </dd>
+                <br>
+                <br>
+
+                <dt>
+                  <h4 style="margin-bottom: 5px;">Step 3: Open Your git hub repository and check the changes</h4>
+                </dt>
+                <hr>
+                <dd>
+                  you can cross check whether the changes is reflected in your repository or not
+                  <img class="mt-30" src="images/blog/1/22.png">
+                </dd>
+                <br>
+                <br>
+
+                <p class="mt-30"><strong>Thats it, you have succesfully made changes in your local files and updated your repository, if still having problems fell free to <a href="#contact">contact</a></strong></p>
+
+
+              </dl>
+            </p>
+
+            <div class="sharethis-inline-share-buttons"></div>
+            
+          </div><!-- cont -->        
+        </div><!-- blog details -->
+        <!----------------------------------------------------- third Writing division end ------------------------------------------------------>
+
+        <!----------------------------------------------------- fourth Writing division Start ------------------------------------------------------>
+        <div class="blog-details mt-30">
+          <div class="cont">
+            <h3>Cloning a repository</h3>
+            <p class="mt-30">
+              When you create a repository on GitHub, it exists as a remote repository (i.e It will remain Online on your Github account website).
+              But if you want to make changes in your file,then you may need the files to be downloaded on your system or laptop. Here comes the concept of Cloning.
+              <br>
+              The process of copying the repository from GitHub to your local machine is called cloning. You can clone your repository to create a local copy on your computer and sync between the two locations.
+              <br>
+              <br>
+              When you're working with a repository on GitHub, you might want to have it on your local machine to make it easier to work with. For example, to allow you to use your favorite editor, to add and remove files, or to fix conflicts. Cloning a repository pulls down a full copy of all the repository data that GitHub has at that point in time
+              <br>
+
+              You can either clone your existing repository or, to contribute to a project, clone another person's existing repository..
+              <br>
+              <br>
+              For this tutorial, we’ll be using the <a href="https://github.com/octocat/Spoon-Knife">Spoon-Knife project</a> , a test repository that’s hosted on GitHub.com that lets you test the Clone workflow.
+            </p>
+            <p class="mt-20">
+              <dl>
+                <dt>
+                  <h4 style="margin-bottom: 5px;">Step 1: Go to repository</h4>
+                </dt>
+                <hr>
+                <dd >
+                  <li> On GitHub, navigate to the main page of the repository.that you want to clone on your system. Click on the Clone Button
+                  </li>
+                  <p>You can also clone other people's repository by visiting on there account</p>
+                  <img class="mt-30 mb-20" src="images/blog/1/11.png">
+                  <li > You can do this by using two diffrent methods.<br>
+                    1-> By Downloading a Complete zip file<br>
+                    2-> By using your Command Prompt ,use this HTTPS link for that
+                  </li>
+                  <img class="mt-30" src="images/blog/1/12.png">
+
+                </dd>
+                <br>
+                <br>
+
+                <dt>
+                  <h4 class="mt-30">Step 2.1: Clone repository by method 1</h4>
+                </dt>
+                <hr>
+                <dd>
+                  <li>you can do that just by clicking on the <strong>Download ZIP</strong> Button and extract the file on your system
+                  </li>
+
+                </dd>
+                <br>
+                <br>
+
+                <dt>
+                  <h4 style="margin-bottom: 5px;">Step 2.2: Clone repository by method 2</h4>
+                </dt>
+                <hr>
+                <dd>
+                  <li>Copy the link that shown in above image</li>
+                  <li>First either create a New folder or open a existing folder on your system, where ever your want to clone</li>
+                  <li>Type <strong>cmd</strong> on the adress bar of your folder</li>
+                  <li>Command prompt window will open, pointing to same location of your folder</li>
+                  <img class="mt-30" src="images/blog/1/13.png">
+                  <li>Type git clone, and then paste the URL you copied earlier. <strong>(you must be having Git installed on your stystem)</strong></li>
+                  <pre class="pre">
+                    <code class="code">git clone https://github.com/USERNAME/REPOSITORY</code>
+                  </pre>
+                  <li>Press Enter and you see something like this</li>
+                  <img src="images/blog/1/14.png">
+
+                  <p>You can see the folder of repository</p>
+
+                  <p class="mt-30"><strong>Thats it, you have succesfully created a clone of online repository to your local machine, if still having problems fell free to <a href="#contact">contact</a></strong></p>
+
+
+
+                </dd>
+                <br>
+                <br>
+
+
+              </dl>
+            </p>
+            <div class="sharethis-inline-share-buttons"></div>
+
+          </div><!-- cont -->        
+        </div><!-- blog details -->
+        <!----------------------------------------------------- fourth Writing division end ------------------------------------------------------>
+
+        <p class="mt-30"><strong>Stay Tuned for Part -2 , i will show some more GutHub functions and features</strong >if you have problems or errors fell free to <a href="#contact">contact</a></p>
+
+
+
+    </div>
+
+
+    <!--------------------------------------- Side Bar----------------------------------------->
+
+    <div class="col-lg-4">
+      <div class="saidbar">
+        <div class="row">
+
+          <!--  submit blog button-->
+          <div class="col-lg-12 col-md-12">
+            <div class="mt-30" >
+              <div class="events-coundwon bg_cover" data-overlay="8" style="background-image: url(911.png)">
+                <div class="events-coundwon-btn">
+                  <a href="Write-blog.html" class="main-btn">Submit Your Blog</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  submit blog button-->
+
+          <!-- popular post-->
+          <div class="col-lg-12 col-md-6">
+            <div class="saidbar-post mt-30">
+              <h4>Popular Posts</h4>
+              <ul>
+               <li>
+                <a href="blog-1.html">
+                  <div class="singel-post">
+                   <div class="thum">
+                     <img src="images/blog/blog-post/bp-1.jpg" alt="Blog">
+                   </div>
+                   <div class="cont">
+                     <h6>A beginners Intro to Git and GitHub</h6>
+                     <span>6 June 2020</span>
+                   </div>
+                 </div> <!-- singel post -->
+               </a>
+             </li>
+             <li>
+              <a href="blog-3.html">
+                <div class="singel-post">
+                 <div class="thum">
+                   <img src="images/blog/blog-post/bp-3.jpg" alt="Blog">
+                 </div>
+                 <div class="cont">
+                   <h6>A full-featured e-mailing system for PHP projects</h6>
+                   <span>5 June 2020</span>
+                 </div>
+               </div> <!-- singel post -->
+             </a>
+           </li>
+           <li>
+            <a href="blog-2.html">
+              <div class="singel-post">
+               <div class="thum">
+                 <img src="images/blog/blog-post/bp-2.jpg" alt="Blog">
+               </div>
+               <div class="cont">
+                 <h6>Road to become a Script Kiddie</h6>
+                 <span>4 June 2020</span>
+               </div>
+             </div> <!-- singel post -->
+           </a>
+         </li>
+       </ul>
+     </div>
+     <!-- saidbar post -->
+   </div>
+   <!----------------------------------------- popular post------------------------------------------>
+
+
+   <!----------------------------------------- About Author------------------------------------------>
+   <div class="col-lg-12 col-md-6" id="contact">
+    <div class="saidbar-post mt-30">
+      <h4>About Author</h4>
+      <div class="instructor-cont">
+        <div class="instructor-author">
+          <div class="author-thum">
+            <img src="images/about/1NC17/1NC17CS001.jpg" alt="Author">
+          </div>
+          <div class="author-name">
+            <a href="#"><h5>Abhishek kumar Ram</h5></a>
+            <span>1NC17CS001, CSE, NCET</span>
+            <ul class="social">
+              <li> <a href="mailto:meisabikumar@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a></li>
+              <li><a href="https://www.instagram.com/akcoolboy47/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/meisabikumar/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+
+              
+              
+            </ul>
+          </div>
+        </div>
+        <div class="instructor-description pt-25">
+          <p><strong> You can contact me for any doubts or Errors regarding this blog</strong><br> click on above icons to contact</p>
+        </div>
+      </div> <!-- instructor cont -->
+
+    </div>
+    <!-- saidbar post -->
+  </div>
+  <!----------------------------------------- About Author------------------------------------------>
+
+
+</div>
+</div>
+<!-- row -->
+</div>
+<!--------------------------------------- Side Bar end----------------------------------------->
+
+
+
+</div>
+
+
+</div>
+<!-- row -->
+</div>
+<!-- container -->
+</section>
+<!--====== BLOG PART ENDS ======-->
+<!--====== FOOTER PART START ======-->
+<footer id="footer-part">
+    <div class="footer-top pt-40 pb-70">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                    <div class="footer-address mt-40">
+                        <div class="footer-title pb-25">
+                            <h6 style="text-shadow: 5px 10px 5px #000;">Contact Us</h6>
+                        </div>
+                        <ul>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-home"></i>
+                                </div>
+                                <div class="cont">
+                                    <p>R&D lab, Ground floor,<br>CSE Department, NCET</p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-phone"></i>
+                                </div>
+                                <div class="cont">
+                                    <p><a href="tel:9663300824">+91 96633 00824</a></p>
+                                    <p><a href="tel:9916565665">+91 99165 65665</a></p>
+                                    <p><a href="tel:9986888121">+91 99868 88121</a></p>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="icon">
+                                    <i class="fa fa-envelope-o"></i>
+                                </div>
+                                <div class="cont">
+                                    <p><a href="mailto:ark@ncetmonsterminds.com" target="_blank">ark@ncetmonsterminds.com</a></p>
+                                    <p><a href="mailto:ncetcodingclub@gmail.com" target="_blank">ncetcodingclub@gmail.com</a></p>
+                                </div>
+                            </li>
+                        </ul>
+                        
+                        <div class="footer-about mt-40">
+                            <ul class="mt-20">
+                                <li><a href="https://www.facebook.com/ncetcodingclub"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="https://twitter.com/ncetcodingclub"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="https://www.instagram.com/ncetcodingclub/"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div>                             
+                    </div> <!-- footer address -->
+                </div>
+                    <!--
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-about mt-40">
+                            <div class="logo">
+                                <a href="#"><img src="logo.png" alt="Logo"></a>
+                            </div>
+                            <p>Gravida nibh vel velit auctor aliquetn quibibendum auci elit cons equat ipsutis sem nibh id elit. Duis sed odio sit amet nibh vulputate.</p>
+                            <ul class="mt-20">
+                                <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                            </ul>
+                        </div> 
+                    </div>-->
+
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="footer-link mt-40">
+                            <div class="footer-title pb-25">
+                                <h6 style="text-shadow: 5px 10px 5px #000;">Sitemap</h6>
+                            </div>
+                            <ul>
+                                <li><a href="index.html"><i class="fa fa-angle-right"></i>Home</a></li>
+                                <li><a href="about.html"><i class="fa fa-angle-right"></i>About us</a></li>
+                                <li><a href="courses.html"><i class="fa fa-angle-right"></i>Courses</a></li>
+                                <li><a href="events.html"><i class="fa fa-angle-right"></i>Event</a></li>
+                                <li><a href="blog.html"><i class="fa fa-angle-right"></i>Blogs</a></li>
+                                <li><a href="contact.html"><i class="fa fa-angle-right"></i>Contact</a></li>
+                                
+                            </ul>                            
+                        </div> <!-- footer link -->
+                    </div>
+
+                    
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="footer-address mt-40">
+                            <div class="footer-title pb-25">
+                                <h6 style="text-shadow: 5px 10px 5px #000;">Developed by:-</h6>
+                            </div>
+                            <ul>
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>Abhishek Kumar Ram<br>
+                                        6th Sem ,CSE</p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>Kaushal Kant Singh<br>
+                                        6th Sem ,CSE</p>
+                                    </div>
+                                </li>
+
+                                <li>
+                                    <div class="icon">
+                                        <i class="fa fa-user"></i>
+                                    </div>
+                                    <div class="cont">
+                                        <p>Rahul Kumar<br>
+                                        6th Sem ,CSE</p>
+                                    </div>
+                                </li>
+                                
+                            </ul>
+                        </div> <!-- footer address -->
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 col-6">
+                        <div class="footer-address2 mt-40">
+                            <div class="footer-title pb-25">
+                                <h6><br></h6>
+                            </div>
+
+                            <ul>
+
+                                <li>
+                                    <ul>
+                                        <li>
+                                            <div class="cont">
+                                                <p>1NC17CS001</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <a href="mailto:meisabikumar@gmail.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
+                                                <a href="https://www.instagram.com/akcoolboy47/"><i class="fa fa-instagram"></i></a>
+                                                <a href="https://www.linkedin.com/in/meisabikumar/"><i class="fa fa-linkedin"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <ul>
+                                        <li>
+                                            <div class="cont">
+                                                <p>1NC17CS037</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <a href="mailto:ark@ncetmonsterminds.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
+                                                <a href="https://www.instagram.com/kksrajput01/"><i class="fa fa-instagram"></i></a>
+                                                <a href="https://www.linkedin.com/in/kaushal-kant-singh-741712171/"><i class="fa fa-linkedin"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                                <li>
+                                    <ul>
+                                        <li>
+                                            <div class="cont">
+                                                <p>1NC17CS074</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <a href="mailto:ark@ncetmonsterminds.com" target="_blank"><i class="fa fa-envelope-o"></i></a>
+                                                <a href="https://www.instagram.com/i_dream_bot/"><i class="fa fa-instagram"></i></a>
+                                                <a href="https://www.linkedin.com/in/rahul-kumar-1616b4189/"><i class="fa fa-linkedin"></i></a>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </li>
+
+                            </ul>
+                        </div> <!-- footer address -->
+                    </div>
+
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer top -->
+        
+        
+    </footer>
+<!--====== FOOTER PART ENDS ======-->
+<!--====== BACK TO TOP PART START ======-->
+<a href="#" class="back-to-top">
+  <i class="fa fa-angle-up"></i>
+</a>
+<!--====== BACK TO TOP PART ENDS ======-->
+<!--====== jquery js ======-->
+<script src="js/vendor/modernizr-3.6.0.min.js"></script>
+<script src="js/vendor/jquery-1.12.4.min.js"></script>
+<!--====== Bootstrap js ======-->
+<script src="js/bootstrap.min.js"></script>
+<!--====== Slick js ======-->
+<script src="js/slick.min.js"></script>
+<!--====== Magnific Popup js ======-->
+<script src="js/jquery.magnific-popup.min.js"></script>
+<!--====== Counter Up js ======-->
+<script src="js/waypoints.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<!--====== Nice Select js ======-->
+<script src="js/jquery.nice-select.min.js"></script>
+<!--====== Nice Number js ======-->
+<script src="js/jquery.nice-number.min.js"></script>
+<!--====== Count Down js ======-->
+<script src="js/jquery.countdown.min.js"></script>
+<!--====== Validator js ======-->
+<script src="js/validator.min.js"></script>
+<!--====== Ajax Contact js ======-->
+<script src="js/ajax-contact.js"></script>
+<!--====== Main js ======-->
+<script src="js/main.js"></script>
+<!--====== Map js ======-->
+<script src="js/map-script.js"></script>
+</body>
+</html>
+
+  <!--
+    <ul class="share">
+            <li class="title">Share :</li>
+            <li>
+              <a href="#">
+                <i class="fa fa-facebook-f"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-twitter"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-google-plus"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-instagram"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+        -->

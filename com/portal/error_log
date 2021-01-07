@@ -1,0 +1,28 @@
+[13-Jun-2020 03:09:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/portal/config.php on line 10
+[13-Jun-2020 03:09:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/portal/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/portal/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/portal/config.php on line 14
+[13-Jun-2020 03:10:25 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/portal/config.php on line 10
+[13-Jun-2020 03:10:25 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/portal/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/portal/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/portal/config.php on line 14
+[13-Jun-2020 03:10:27 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/portal/config.php on line 10
+[13-Jun-2020 03:10:27 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/portal/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/portal/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/portal/config.php on line 14
+[13-Jun-2020 03:10:30 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /home/ncetmonsterminds/public_html/portal/config.php on line 10
+[13-Jun-2020 03:10:30 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home/ncetmonsterminds/public_html/portal/config.php:14
+Stack trace:
+#0 /home/ncetmonsterminds/public_html/portal/index.php(5): require_once()
+#1 {main}
+  thrown in /home/ncetmonsterminds/public_html/portal/config.php on line 14
+[13-Jun-2020 03:22:31 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/portal/process.php on line 27
+[13-Jun-2020 03:22:31 UTC] PHP Warning:  Use of undefined constant pass - assumed 'pass' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/portal/process.php on line 27
+[13-Jun-2020 03:22:31 UTC] PHP Warning:  Use of undefined constant name - assumed 'name' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/portal/process.php on line 33
+[13-Jun-2020 03:22:31 UTC] PHP Warning:  Use of undefined constant pass - assumed 'pass' (this will throw an Error in a future version of PHP) in /home/ncetmonsterminds/public_html/com/portal/process.php on line 34
